@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Dipenparmar12\Responder;
 
 use Illuminate\Contracts\Routing\ResponseFactory;
 use Illuminate\Support\ServiceProvider;

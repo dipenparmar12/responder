@@ -1,7 +1,7 @@
 # Extend Json response method in laravel
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/dipenparmar12/exportable.svg?style=flat-square)](https://packagist.org/packages/dipenparmar12/Responder)
-[![Total Downloads](https://img.shields.io/packagist/dt/dipenparmar12/exportable.svg?style=flat-square)](https://packagist.org/packages/dipenparmar12/Responder)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/dipenparmar12/Responder.svg?style=flat-square)](https://packagist.org/packages/dipenparmar12/Responder)
+[![Total Downloads](https://img.shields.io/packagist/dt/dipenparmar12/Responder.svg?style=flat-square)](https://packagist.org/packages/dipenparmar12/Responder)
 
 ## Installation
 

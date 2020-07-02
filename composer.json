@@ -1,6 +1,6 @@
 {
   "name": "dipenparmar12/responder",
-  "description": "A Laravel package for custome api response payload",
+  "description": "A Laravel package for custom api response payload",
   "type": "library",
   "license": "MIT",
   "authors": [

@@ -1,9 +1,7 @@
-# Export table records in csv files
+# Extend Json response method in laravel
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/dipenparmar12/exportable.svg?style=flat-square)](https://packagist.org/packages/dipenparmar12/Responder)
 [![Total Downloads](https://img.shields.io/packagist/dt/dipenparmar12/exportable.svg?style=flat-square)](https://packagist.org/packages/dipenparmar12/Responder)
-
-A Laravel package for custome api response payload
 
 ## Installation
 
@@ -25,9 +23,36 @@ Syntax for error response
 Example
 
 > `return response()->success( 'data inserted', $data, 200, 200)`
-<br>
+
+```php
+[
+    'success' => true,
+    'message' => "data inserted",
+    'status' => 200,
+    'path' => '/uri-segment',
+    'results' => $your_data,
+    'metadata' => [
+        'auth_id' => 'loged_in_user_id or null',
+        'url' => 'url'
+    ]
+]
+```
+
 > `return response()->error( 'error occured', request()->all(), 401, 500)`
 
+```php
+[
+    'success' => false,
+    'message' => "error occured",
+    'status' => 401,
+    'path' => '/uri-segment',
+    'results' => $your_data,
+    'metadata' => [
+        'auth_id' => 'loged_in_user_id or null',
+        'url' => 'url'
+    ]
+]
+```
 ### Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.

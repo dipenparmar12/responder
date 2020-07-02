@@ -1,0 +1,34 @@
+{
+  "name": "dipenparmar12/Responder",
+  "description": "A Laravel package for custome api response payload",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dipen parmar",
+      "email": "dipenparmar12@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.1"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Dipenparmar12\\Responder\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Dipenparmar12\\Responder\\JsonResponseServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
